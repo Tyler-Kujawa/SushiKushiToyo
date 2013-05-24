@@ -1,0 +1,53 @@
+<!-- Image Carousel -->
+<%= render 'image_carousel' %>
+
+<!-- Body of Page -->
+<section class="home-content">
+	<div class="row">
+		<!--About Us-->
+		<div class="small-6 columns">
+			<div class="row">
+				<div class="section-title"><h4>About Us</h4></div>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+			</div>
+		</div>
+		<!--End: About Us-->
+		
+		<!--sign up-->
+		<div class="small-5 columns">
+			<div class="row">
+				<div class="section-title"><h4>Get Updates</h4></div>
+			</div>
+			
+			<div class="row">
+			<%= form_tag(main_content_coming_soon_path, :method => 'get') do %>
+				<div class="small-9 columns">
+					<%= text_field_tag(:email) %>
+				</div>
+				<div class="small-3 columns">
+					<%= submit_tag('Sign up', :class=>"button medium radius white-btn") %>
+				</div>
+			<% end %>
+			
+			<!--
+			<form method="post" action="">
+				<div class="small-9 columns">
+						<input type="email" name="email" value="" placeholder="Email"/>
+				</div>
+				
+				<div class="small-3 columns">
+					<input type="submit" value="Sign Up" name="subscribe" class="button medium radius white-btn">
+				</div>
+			</form>
+			-->
+			
+		</div>
+		<!--End: sign up-->
+		
+	</div>
+</section>	
+<!-- End: Body of Page-->
+
+
+
+<%= render 'reviews' %>

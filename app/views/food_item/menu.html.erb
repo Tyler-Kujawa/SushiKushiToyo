@@ -1,0 +1,49 @@
+	
+<!-- Menu-Header Section-->
+<section class="menu-header">
+	<div class="row">
+		<div class="small-3 columns">
+			<h4>Menu</h4>
+		</div>
+		<div class="small-9 columns">
+		</div>
+	</div>
+</section>	
+<!--/Menu-Header Section-->
+
+<!--Menu-content Section-->
+<section class="menu-content">
+	<div class="row">
+		<!--categories list-->
+		<div class="small-2 columns">
+			<div class="row">
+				<ul class="category">
+					<li><a class="active" href="#">All items</a></li>
+					<li><a href="#">Lunch</a></li>
+					<li><a href="#">Sushi</a></li>
+				</ul>
+			</div>
+		</div>
+		<!--/categories list-->
+		
+		<!-- menu-list -->
+		<div class="small-9 columns menu-list">
+			<% 3.times do |i| %>
+				<!--menu-item-->
+				<div class="row menu-item">
+					<div class="small-3 columns">
+						<img src="http://placehold.it/150x150">
+					</div>
+					<div class="small-9 columns">
+						<span class="item-name"><strong><%= "Item #{i +1}" %></strong></span><span class="right item-price">$15</span>
+						<p class="item-desc">Item Description</p>
+					</div>
+				</div>
+				<!--/menu-item-->
+			<% end %>
+		</div>
+		<!--/menu-list -->
+	</div>
+	
+</section>
+<!--/Menu-content Section-->
