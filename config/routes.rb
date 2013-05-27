@@ -6,7 +6,9 @@ SushiKushiToyo::Application.routes.draw do
   get "food_item/menu"
   get "main_content/coming_soon"
   get "main_content/home"
-
+  
+  get "main_content/about"
+	
   get "main_content/contact"
 
   root :to => "main_content#home"
