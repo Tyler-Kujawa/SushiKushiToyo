@@ -1,0 +1,144 @@
+/* General selectors*/
+
+.section-title{
+	background: transparent url('../img/icons/heart-small.png') no-repeat center left;
+	padding: 0px 0px 0px 33px;
+/*	border-bottom: 1px solid lighten($grey,60%);*/
+}
+.section-title h4{
+	color: white;
+}
+
+
+/*Home Page*/
+
+/*Hero section*/
+.hero
+{
+	background: white;
+/*	height: 350px;*/
+}
+
+.home-content
+{
+	background: $green;
+	padding: 50px 0px;
+	/*margin-bottom: 50px;*/
+	
+	p{
+		color: white;
+	}
+}
+
+.grey-space{
+	background: $grey;
+	padding: 20px 0px;
+}
+
+.reviews
+{
+	background: white;
+	margin-bottom: 50px;
+	padding: 0px 10px;
+	
+	p{
+		padding: 5px 2px;
+		margin-bottom: 5px;
+	}
+	
+}
+
+.reviews-section-title{
+	@extend .section-title;
+	background: transparent url('../img/icons/user2.png') no-repeat center left;
+	margin-bottom: 30px;
+}
+
+img.review-pic{
+	
+}
+
+
+/*Menu Page*/
+
+.menu-header{
+	background: $green;
+	padding: 50px 0px;
+	
+	h4{
+		color: white;
+	}
+	
+	
+}
+
+.menu-content{
+	padding: 50px 0px;
+	
+	.menu-list{
+		margin-top: 10px;
+		
+		.menu-item{
+			padding: 30px 0px;
+			border-bottom: 1px dashed $lightGrey;
+			
+			.item-name{
+				color: $darkOrange;
+			}
+			
+			.item-price{
+				font-weight: lighter;
+				font-size: emCalc(20px);
+			}
+			
+			.item-desc{
+				color: $grey;
+				margin-top: 20px;
+			}
+			
+		}
+	}	
+	
+}/*end menu-content*/
+
+
+ul.category{
+	text-align: center;	
+	
+	li{
+		border-bottom: 1px solid $lightGrey;
+		display: block;
+		padding: 10px 0px;
+		
+		.active{
+			font-weight: bold;
+		}
+	}
+	
+}
+
+
+/*Find Us Page*/
+.findus-header{
+	background: $green;
+	padding: 50px 0px;
+	
+	h4{
+		color: white;
+	}
+}
+
+.findus-content{
+	padding: 50px 0px;
+	
+	h4{
+		color: $green;
+	}
+	
+}
+
+.map{
+	margin-top: 20px;
+}
+
+
