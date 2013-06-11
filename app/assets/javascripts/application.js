@@ -12,4 +12,7 @@
 //
 //= require jquery
 //= require foundation
+//= require fo
 //= require_tree .
+
+		alert("hi");
