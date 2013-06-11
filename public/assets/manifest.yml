@@ -1,6 +1,8 @@
 ---
 japan.mp3: japan-0818b4788b6e067fae9332aaa07b55e4.mp3
 japan/index.mp3: japan-0818b4788b6e067fae9332aaa07b55e4.mp3
+Thumbs.db: Thumbs-6a416e3587376556e32aae50ff2639ac.db
+Thumbs/index.db: Thumbs-6a416e3587376556e32aae50ff2639ac.db
 address.png: address-d2791d5c228768616378ae58e7ea1fff.png
 address/index.png: address-d2791d5c228768616378ae58e7ea1fff.png
 charity.png: charity-d6645b0055ca8efe83aff385f6d5d182.png
@@ -17,6 +19,10 @@ phone.png: phone-ee6ee353e069d3452882b1c69b53830f.png
 phone/index.png: phone-ee6ee353e069d3452882b1c69b53830f.png
 rails.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
 rails/index.png: rails-a3386665c05a2d82f711a4aaa72d247c.png
+restraunt_interior.jpg: restraunt_interior-2795564fc01885957f2369c9dcf0176f.jpg
+restraunt_interior/index.jpg: restraunt_interior-2795564fc01885957f2369c9dcf0176f.jpg
+salad.jpg: salad-8628d49761c080a9ee9c8fb60965419d.jpg
+salad/index.jpg: salad-8628d49761c080a9ee9c8fb60965419d.jpg
 star.png: star-45abe937e7535f07dac46e0204bd459e.png
 star/index.png: star-45abe937e7535f07dac46e0204bd459e.png
 sushi-s.jpg: sushi-s-e9d3ad7d99585673e09f5ca0cd9e7e40.jpg
