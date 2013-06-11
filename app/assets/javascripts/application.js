@@ -16,4 +16,4 @@
 //= require foundation
 //= require_tree .
 
-		alert("hi");
+	jQuery(document).ready(function(){alert("hi");});
