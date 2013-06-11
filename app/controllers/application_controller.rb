@@ -1,3 +1,14 @@
 class ApplicationController < ActionController::Base
   protect_from_forgery
+	before_filter :prepare_for_mobile
+	
+	def is_mobile?
+		request.user_agent =~ /Mobile|webOS/
+	end
+	
+	def prepare_for_mobile
+		request.format = :mobile if is_mobile?
+	end
+	
+	helper_method :is_mobile?
 end
