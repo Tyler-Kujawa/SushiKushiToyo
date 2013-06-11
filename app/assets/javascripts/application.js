@@ -11,8 +11,9 @@
 // GO AFTER THE REQUIRES BELOW.
 //
 //= require jquery
+//= require jquery_ujs
+//= require custom.modernizr
 //= require foundation
-//= require fo
 //= require_tree .
 
 		alert("hi");

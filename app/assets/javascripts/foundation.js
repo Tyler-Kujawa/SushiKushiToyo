@@ -7,7 +7,6 @@
 */
 
 /*jslint unparam: true, browser: true, indent: 2 */
-
 (function () {
   // add dusty browser stuff
   if (!Array.prototype.filter) {
