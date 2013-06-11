@@ -11,5 +11,3 @@
 // GO AFTER THE REQUIRES BELOW.
 //= require jquery
 //= require foundation.min
-
-	jQuery(document).ready(function(){alert("hi");});
