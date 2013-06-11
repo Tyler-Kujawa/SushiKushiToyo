@@ -9,23 +9,30 @@
 			<div class="row">
 				<div class="section-title"><h4>About Us</h4></div>
 				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+				<p><a href="#" class="button small success radius" data-reveal-id="videoModal" id="video-modal">Watch video</a></p>
 			</div>
 		</div>
 		<!--End: About Us-->
 		
 		<!--sign up-->
 		<div class="small-5 columns">
+		<div id="thing">
 			<div class="row">
 				<div class="section-title"><h4>Get Updates</h4></div>
 			</div>
 			
 			<div class="row">
-			<%= form_tag(main_content_coming_soon_path, :method => 'get') do %>
-				<div class="small-9 columns">
-					<%= text_field_tag(:email) %>
-				</div>
-				<div class="small-3 columns">
-					<%= submit_tag('Sign up', :class=>"button medium radius white-btn") %>
+				<div class="row">
+					<div class="small-8 columns">
+					<%= form_for(@user, :method => "post", :remote => "true") do |f| %>
+								<span style="font-size:1.2em;">Name:</span> <%= f.text_field(:name, :id => "name-field") %>
+								<span style="font-size:1.2em;">Email:</span> <%= f.text_field(:email, :id => "email-field") %>
+						</div>
+					<div class="row">
+						<div class="small-8 columns small-centered">
+							<%= f.submit('Sign up', :class=>"button medium radius white-btn") %>
+						</div>
+					</div>
 				</div>
 			<% end %>
 			
@@ -40,14 +47,20 @@
 				</div>
 			</form>
 			-->
-			
+			</div>
 		</div>
 		<!--End: sign up-->
 		
 	</div>
+	
 </section>	
 <!-- End: Body of Page-->
+<div id="emailModal" class="reveal-modal">
 
-
-
+</div>
+<%= render 'video_modal' %>
 <%= render 'reviews' %>
+
+
+
+

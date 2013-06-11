@@ -1,8 +1,7 @@
 SushiKushiToyo::Application.routes.draw do
   resources :users
 
-  resources :food_items
-  
+  resources :food_items	
   get "food_item/menu"
   get "main_content/coming_soon"
   get "main_content/home"
@@ -10,6 +9,9 @@ SushiKushiToyo::Application.routes.draw do
   get "main_content/about"
 	
   get "main_content/contact"
+  
+  post "main_content/create"
+	get "main_content/more"
 
   root :to => "main_content#home"
   

@@ -1,0 +1,17 @@
+<div id="tyModal" class="reveal-modal">
+</div>
+
+
+<%= link_to("modal-ajax", main_content_coming_soon_path, :remote => "true") %>
+
+<script>
+	jQuery("#reveal-ty-modal").trigger("click");
+	
+	jQuery("#reveal-ty-modal").click(function(){
+		jQuery("#tyModal").foundation("reveal", "open");
+	});
+	
+	jQuery("#close-ty-modal").click(function(){
+		jQuery("#tyModal").foundation("reveal", "close");
+	});
+</script>
