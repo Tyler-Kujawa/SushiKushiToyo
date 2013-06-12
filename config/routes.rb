@@ -7,6 +7,7 @@ SushiKushiToyo::Application.routes.draw do
   get "main_content/home"
   
   get "main_content/about"
+  get "main_content/about_mobile"
 	
   get "main_content/contact"
   
