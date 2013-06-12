@@ -18,8 +18,6 @@ class MainContentController < ApplicationController
   end
   
   def coming_soon
-		@server_content = "hi there"
-		
 		respond_to do |format|
 			format.html
 			format.js

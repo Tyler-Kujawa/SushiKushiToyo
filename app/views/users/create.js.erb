@@ -1,2 +1,4 @@
-jQuery("#tyModal").append("<h1><%=@server_content %></h1>");
-jQuery("#tyModal").foundation("reveal", "open");
+jQuery("#errorModal").html("<h1 style='color:#8d3028;'>Whoa ...</h1><p>Please re-enter your info.</p>");
+jQuery("#errorModal").foundation("reveal", "open");
+jQuery("#name-field").val("");
+jQuery("#email-field").val("");

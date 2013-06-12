@@ -45,15 +45,17 @@ class UsersController < ApplicationController
     @user = User.new(params[:user])
 		
     respond_to do |format|
-      if @user.save
+      if @user.new_record? && @user.save
         format.html { redirect_to main_content_home_path }
-				format.js		{ 
+		format.js{ 
 					redirect_to main_content_home_path 
 					session[:user_id] = @user.id
 				}
         format.json { render json: @user, status: :created, location: @user }
       else
+		@error_message = "Name #{@user.errors[:name]}" if @user.errors.any?
         format.html { render action: "new" }
+		format.js 
         format.json { render json: @user.errors, status: :unprocessable_entity }
       end
     end

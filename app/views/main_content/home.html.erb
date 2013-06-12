@@ -8,7 +8,7 @@
 		<div class="small-6 columns">
 			<div class="row">
 				<div class="section-title"><h4>About Us</h4></div>
-				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+				<p>Total 130 seats in modern exterior but authentic Japanese Sushi restaurant in North side of Chicago, Lake Forest, Sushi Kushi Toyo is favore of neighbors.</p>
 				<p><a href="#" class="button medium radius white-btn" data-reveal-id="videoModal" id="video-modal">Watch video</a></p>
 			</div>
 		</div>
@@ -25,8 +25,8 @@
 				<div class="row">
 					<div class="small-8 columns">
 					<%= form_for(@user, :method => "post", :remote => "true") do |f| %>
-								<span style="font-size:1.2em;">Name:</span> <%= f.text_field(:name, :id => "name-field") %>
-								<span style="font-size:1.2em;">Email:</span> <%= f.text_field(:email, :id => "email-field") %>
+							<span style="font-size:1.2em;">Name:</span> <%= f.text_field(:name, :id => "name-field") %>
+							<span style="font-size:1.2em;">Email:</span> <%= f.text_field(:email, :id => "email-field") %>
 						</div>
 					<div class="row">
 						<div class="small-8 columns small-centered">
@@ -55,9 +55,8 @@
 	
 </section>	
 <!-- End: Body of Page-->
-<div id="emailModal" class="reveal-modal">
-
-</div>
+<div id="emailModal" class="reveal-modal"></div>
+<div id="errorModal" class="reveal-modal"></div>
 <%= render 'video_modal' %>
 <%= render 'reviews' %>
 
