@@ -2,18 +2,15 @@
 	<h3>Sushi</h3>
 	<hr>
 	<% @sushi_items.each do |i| %>
-		<div class='row menu-item'>
-			<div class='small-3 columns'>
 				<%= image_tag(i[:image], :height => '150', :width => '150') %>
-				<!--<img src='http://placehold.it/150x150'>-->
-			</div>
-			<div class='small-9 columns'>
 				<span class='item-name'><strong><%= "#{i[:name]}" %></strong></span><span class='right item-price'>$<%= i[:price] %></span>
-				<p class='item-desc'>Item Description</p>
-			</div>
 		</div>
-	<% end %>
-</div>
+		<div class="small-9 columns">
+			<span class="item-name"><strong>Sushi Deluxe</strong></span><span class="right item-price">$50</span>
+			<p class="item-desc">Chef's special freshest best selection</p>
+		</div>
+	</div>
+	<!--/menu-item-->
 </div>
 
 </section>

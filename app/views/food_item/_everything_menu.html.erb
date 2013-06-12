@@ -2,18 +2,42 @@
 	<h3>Full Menu</h3>
 	<hr>
 	<% @all_items.each do |i| %>
-		<div class='row menu-item'>
-			<div class='small-3 columns'>
+			<div class="small-3 columns">
+				<%= link_to image_tag("SushiDelux.jpg") %>
 				<%= image_tag(i[:image], :height => '150', :width => '150') %>
 				<!--<img src='http://placehold.it/150x150'>-->
 			</div>
-			<div class='small-9 columns'>
+			<div class="small-9 columns">
 				<span class='item-name'><strong><%= "#{i[:name]}" %></strong></span><span class='right item-price'>$<%= i[:price] %></span>
-				<p class='item-desc'>Item Description</p>
+				<p class="item-desc">Chef's special freshest best selection</p>
 			</div>
 		</div>
-	<% end %>
-</div>
+		<!--/menu-item-->
+		
+		<!--menu-item-->
+		<div class="row menu-item">
+			<div class="small-3 columns">
+				<%= link_to image_tag("LakeforestRoll.jpg") %>
+			</div>
+			<div class="small-9 columns">
+				<span class="item-name"><strong>Lakeforest Roll</strong></span><span class="right item-price">$8</span>
+				<p class="item-desc">Tuna, fresh salmon, avocado, cucumber, tempura flakes, shrimp, salmon egg</p>
+			</div>
+		</div>
+		<!--/menu-item-->
+		
+		<!--menu-item-->
+		<div class="row menu-item">
+			<div class="small-3 columns">
+				<%= link_to image_tag("AvocadoSalad.jpg") %>
+			</div>
+			<div class="small-9 columns">
+				<span class="item-name"><strong>Avocado Salad</strong></span><span class="right item-price">$12</span>
+				<p class="item-desc">Tuna and avocado with wasabi sauce</p>
+			</div>
+		</div>
+		<!--/menu-item-->
+		
 </div>
 
 </section>
