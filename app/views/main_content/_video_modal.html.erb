@@ -1,7 +1,5 @@
-<div class="reveal-modal" id="videoModal">
-	<h1>Watch Carefully.</h1>
+<div class="reveal-modal" id="videoModal" style="max-width:690px;">
+	<h4>Sushi Kushi on Chicago's Best!</h4>
 	<a class="close-reveal-modal">close</a>
-	<video width="640"  height="360" src="http://www.youtube.com/watch?v=r1l7VgiWsUI"  autoplay>
-  </video>
-
+	<%= video_tag "/assets/sushi.mp4", :size => "640x480", :controls => true %>
 </div>
