@@ -16,17 +16,17 @@
 		<div class="row">
 			<div class="arrow"></div>
 			
-			<% 2.times do |i| %>
+			<% @reviews.each do |i| %>
 			<div class="small-6 columns">
 				<div class="row">
 					<div class="small-2 columns">
-						<img class="review-pic corner_100" src="http://s3-media2.ak.yelpcdn.com/photo/RoTJg2iHf0iTDwrtBviAAQ/ms.jpg" alt="" />
+						<%= image_tag(i[:image]) %>
+						<!--<img class="review-pic corner_100" src="http://s3-media2.ak.yelpcdn.com/photo/RoTJg2iHf0iTDwrtBviAAQ/ms.jpg" alt="" />-->
 					</div>
 					
 					<div class="small-10 columns">
-						<h6><%= "Person number #{i} says:" %></h6>
-						<p>This is where I grew to fall passionally in love with sushi. It will always hold a special place in my heart. I came here frequently throughout middle school and high school and college breaks. I even trek from the city to the suburbs to get my favorite sushi. It's a staple for birthday dinners with my family and even a quick bite to get for lunch.
-						</p>
+						<h6><%= "#{i[:name]} says:" %></h6>
+						<p><%= "#{i[:review_text]}" %></p>
 						<small>From Yelp.com</small>
 					</div>
 				</div>

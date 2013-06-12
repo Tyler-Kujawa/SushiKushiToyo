@@ -1,11 +1,14 @@
 <div class='small-9 columns menu-list'>
-	<% 6.times do |i| %>
+	<h3>Full Menu</h3>
+	<hr>
+	<% @all_items.each do |i| %>
 		<div class='row menu-item'>
 			<div class='small-3 columns'>
-				<img src='http://placehold.it/150x150'>
+				<%= image_tag(i[:image], :height => '150', :width => '150') %>
+				<!--<img src='http://placehold.it/150x150'>-->
 			</div>
 			<div class='small-9 columns'>
-				<span class='item-name'><strong><%= "Item #{i +1}" %></strong></span><span class='right item-price'>$15</span>
+				<span class='item-name'><strong><%= "#{i[:name]}" %></strong></span><span class='right item-price'>$<%= i[:price] %></span>
 				<p class='item-desc'>Item Description</p>
 			</div>
 		</div>

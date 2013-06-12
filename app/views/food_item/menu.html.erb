@@ -25,31 +25,28 @@
 		</div>
 		<!--/categories list-->
 		
-		<div id="lunchItems"></div>
-		<div id="sushiItems"></div>
-		<div id="allItems">
-			<%= render "everything_menu" %>
+		<div id="items">
 		</div>
 		
 		<script>
-			jQuery('#showLunch').click(function(){
-				jQuery('#sushiItems').slideUp();
-				jQuery('#allItems').hide();
-				jQuery('#lunchItems').slideDown().html("<%=j render 'lunch_menu'%>");
-				return false;
-			});
-			
-			jQuery('#showSushi').click(function(){
-				jQuery('#lunchItems').slideUp();
-				jQuery('#allItems').hide();
-				jQuery('#sushiItems').slideDown().html("<%=j render 'sushi_menu'%>");
-				return false;
-			});
-			
-			jQuery('#showAll').click(function(){
-				jQuery('#lunchItems').slideToggle();
-				jQuery('#sushiItems').slideToggle();
-				jQuery('#allItems').html("<%= j render "everything_menu" %>");
+			jQuery(document).ready(function(){
+				//ON LOAD disply all Items
+				jQuery('#items').html("<%=j render 'everything_menu'%>");
+				
+				jQuery('#showLunch').click(function(){
+					jQuery('#items').html("<%=j render 'lunch_menu'%>");
+					return false;
+				});
+				
+				jQuery('#showSushi').click(function(){
+					jQuery('#items').html("<%=j render 'sushi_menu'%>");
+					return false;
+				});
+				
+				jQuery('#showAll').click(function(){
+					jQuery('#items').html("<%=j render 'everything_menu'%>");
+					return false;
+				});
 			});
 		</script>
 	
