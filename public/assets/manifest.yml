@@ -39,6 +39,8 @@ website.png: website-4ca701c8c6275da5946eb8229136b466.png
 website/index.png: website-4ca701c8c6275da5946eb8229136b466.png
 application.js: application-ddfac3f7e946527eafb3f21699a06e88.js
 application/index.js: application-ddfac3f7e946527eafb3f21699a06e88.js
+SushiKushiMobile.min.css: SushiKushiMobile.min-cdb0a8786b514b88a0792f6c148634c8.css
+SushiKushiMobile/index.min.css: SushiKushiMobile.min-cdb0a8786b514b88a0792f6c148634c8.css
 application.css: application-53a9c4c7f7084359ae0cf27e25ff411a.css
 application/index.css: application-53a9c4c7f7084359ae0cf27e25ff411a.css
 sushi.mp4: sushi-b8308579d5d97092343dbe618bd9270e.mp4
