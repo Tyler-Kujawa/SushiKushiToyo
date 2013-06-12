@@ -1,16 +1,39 @@
 <div class='small-9 columns menu-list'>
-	<% 3.times do |i| %>
-		<div class='row menu-item'>
-			<div class='small-3 columns'>
-				<img src='http://placehold.it/150x150'>
-			</div>
-			<div class='small-9 columns'>
-				<span class='item-name'><strong><%= "Item #{i +1}" %></strong></span><span class='right item-price'>$15</span>
-				<p class='item-desc'>Item Description</p>
-			</div>
+	<!--menu-item-->
+	<div class="row menu-item">
+		<div class="small-3 columns">
+			<%= link_to image_tag("SushiDelux.jpg") %>
 		</div>
-	<% end %>
-</div>
+		<div class="small-9 columns">
+			<span class="item-name"><strong>Sushi Deluxe</strong></span><span class="right item-price">$50</span>
+			<p class="item-desc">Chef's special freshest best selection</p>
+		</div>
+	</div>
+	<!--/menu-item-->
+	
+	<!--menu-item-->
+	<div class="row menu-item">
+		<div class="small-3 columns">
+			<%= link_to image_tag("LakeforestRoll.jpg") %>
+		</div>
+		<div class="small-9 columns">
+			<span class="item-name"><strong>Lakeforest Roll</strong></span><span class="right item-price">$8</span>
+			<p class="item-desc">Tuna, fresh salmon, avocado, cucumber, tempura flakes, shrimp, salmon egg</p>
+		</div>
+	</div>
+	<!--/menu-item-->
+	
+	<!--menu-item-->
+	<div class="row menu-item">
+		<div class="small-3 columns">
+			<%= link_to image_tag("AvocadoSalad.jpg") %>
+		</div>
+		<div class="small-9 columns">
+			<span class="item-name"><strong>Avocado Salad</strong></span><span class="right item-price">$12</span>
+			<p class="item-desc">Tuna and avocado with wasabi sauce</p>
+		</div>
+	</div>
+	<!--/menu-item-->
 </div>
 
 </section>

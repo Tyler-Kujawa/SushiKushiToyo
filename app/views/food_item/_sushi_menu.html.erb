@@ -1,16 +1,15 @@
 <div class='small-9 columns menu-list'>
-	<% 3.times do |i| %>
-		<div class='row menu-item'>
-			<div class='small-3 columns'>
-				<img src='http://placehold.it/150x150'>
-			</div>
-			<div class='small-9 columns'>
-				<span class='item-name'><strong><%= "Sushi #{i +1}" %></strong></span><span class='right item-price'>$15</span>
-				<p class='item-desc'>Item Description</p>
-			</div>
+	<!--menu-item-->
+	<div class="row menu-item">
+		<div class="small-3 columns">
+			<%= link_to image_tag("SushiDelux.jpg") %>
 		</div>
-	<% end %>
-</div>
+		<div class="small-9 columns">
+			<span class="item-name"><strong>Sushi Deluxe</strong></span><span class="right item-price">$50</span>
+			<p class="item-desc">Chef's special freshest best selection</p>
+		</div>
+	</div>
+	<!--/menu-item-->
 </div>
 
 </section>

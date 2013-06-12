@@ -25,8 +25,8 @@
 				<div class="row">
 					<div class="small-8 columns">
 					<%= form_for(@user, :method => "post", :remote => "true") do |f| %>
-							<span style="font-size:1.2em;">Name:</span> <%= f.text_field(:name, :id => "name-field") %>
-							<span style="font-size:1.2em;">Email:</span> <%= f.text_field(:email, :id => "email-field") %>
+							<%= f.text_field(:name, :id => "name-field", :placeholder => "Name") %>
+							<%= f.text_field(:email, :id => "email-field", :placeholder => "Email") %>
 						</div>
 					<div class="row">
 						<div class="small-8 columns small-centered">
