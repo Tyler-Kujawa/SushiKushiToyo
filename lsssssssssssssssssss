@@ -1,0 +1,233 @@
+[33mcommit 05186940d86821228ece7a439efbfb979dd67e9d[m
+Author: Ty Kujawa <comsenzce13@gmail.com>
+Date:   Tue Jun 11 00:26:17 2013 -0600
+
+    recognize mobile browser -- basic jQuery Mobile added
+
+[33mcommit 99aa868c7ffc2d2d0964488e16ab8bccddfa4109[m
+Author: Ty Kujawa <comsenzce13@gmail.com>
+Date:   Tue Jun 11 00:24:01 2013 -0600
+
+    one
+
+[33mcommit 1509c7f269bc30e4c93589f7cb530cea15a8aa72[m
+Author: Ty Kujawa <comsenzce13@gmail.com>
+Date:   Tue Jun 11 00:19:57 2013 -0600
+
+    removed application controller
+
+[33mcommit 63a77bf9ea1a6094cab0a04e574a85385545387f[m
+Author: Ty Kujawa <comsenzce13@gmail.com>
+Date:   Tue Jun 11 00:15:02 2013 -0600
+
+    recognize mobile browser -- basic jQuery Mobile
+
+[33mcommit 9e1b056d0c2085ab96621f4d01e48998c1c5fb65[m
+Author: Ty Kujawa <comsenzce13@gmail.com>
+Date:   Mon Jun 10 19:18:55 2013 -0600
+
+    remove bullets
+
+[33mcommit 3f460520e4907561ede5f1b3fe5e57ae85929a9d[m
+Author: Ty Kujawa <comsenzce13@gmail.com>
+Date:   Mon Jun 10 19:08:35 2013 -0600
+
+    foundation min
+
+[33mcommit f6f01e129f864dbe8959d6f37c3da8c5f6919a5a[m
+Author: Ty Kujawa <comsenzce13@gmail.com>
+Date:   Mon Jun 10 18:58:21 2013 -0600
+
+    application just jquery
+
+[33mcommit c8c4fab894f254d1ca54eacd449bae46bbb5595c[m
+Author: Ty Kujawa <comsenzce13@gmail.com>
+Date:   Mon Jun 10 18:54:52 2013 -0600
+
+    just jquery
+
+[33mcommit 58095c63f75df03c433f88d7570e6d03f7d2b330[m
+Author: Ty Kujawa <comsenzce13@gmail.com>
+Date:   Mon Jun 10 18:46:47 2013 -0600
+
+    changed application.js
+
+[33mcommit 208f528d807be902bed832ee716af940062a1eb8[m
+Author: Ty Kujawa <comsenzce13@gmail.com>
+Date:   Mon Jun 10 18:38:09 2013 -0600
+
+    updated application.js
+
+[33mcommit 764cdc3471cc13ce0dc28e465f1f3fc53fcbfe80[m
+Author: Ty Kujawa <comsenzce13@gmail.com>
+Date:   Mon Jun 10 18:13:46 2013 -0600
+
+    testing javascript 3
+
+[33mcommit 4b4732eea7dc27159f8c49dd0739d2a2299be3c9[m
+Author: Ty Kujawa <comsenzce13@gmail.com>
+Date:   Mon Jun 10 18:07:45 2013 -0600
+
+    test javascript 2
+
+[33mcommit a146635f091ae3cc8df9c8069d322e7b2188674b[m
+Author: Ty Kujawa <comsenzce13@gmail.com>
+Date:   Mon Jun 10 17:57:09 2013 -0600
+
+    yes
+
+[33mcommit d323a60043b8c2a931e9e0ead5fce6b822e29bb1[m
+Author: Ty Kujawa <comsenzce13@gmail.com>
+Date:   Mon Jun 10 17:42:45 2013 -0600
+
+    script moved
+
+[33mcommit cc4cc515e498bbf04eb837c1e774990d285d9b40[m
+Author: Ty Kujawa <comsenzce13@gmail.com>
+Date:   Mon Jun 10 17:38:33 2013 -0600
+
+    precompiled
+
+[33mcommit 91f37dcd99bb1efdaee9af058b9cf0a43fda563b[m
+Author: Ty Kujawa <comsenzce13@gmail.com>
+Date:   Mon Jun 10 17:34:55 2013 -0600
+
+    cookie.js removed
+
+[33mcommit ea5b4c8244d899de05183dd326dc74a75f5bb7db[m
+Author: Ty Kujawa <comsenzce13@gmail.com>
+Date:   Mon Jun 10 17:31:15 2013 -0600
+
+    script implementing foundation moved
+
+[33mcommit c1d58ed364e53f4bf14f0c1c34f4b2509ed3edf6[m
+Author: Ty Kujawa <comsenzce13@gmail.com>
+Date:   Mon Jun 10 17:27:04 2013 -0600
+
+    testing javascript
+
+[33mcommit 0ba7093c34605ffaace0d8a672d7a7e3ea8b79a1[m
+Author: Ty Kujawa <comsenzce13@gmail.com>
+Date:   Mon Jun 10 17:17:01 2013 -0600
+
+    application.js file altered
+
+[33mcommit e412a83d84d23bf40a756133f96466444cbe009a[m
+Author: Ty Kujawa <comsenzce13@gmail.com>
+Date:   Mon Jun 10 17:03:03 2013 -0600
+
+    precompiled with jquery removed
+
+[33mcommit 6727200f9a12300dde2b1304869c936e4035a828[m
+Author: Ty Kujawa <comsenzce13@gmail.com>
+Date:   Mon Jun 10 16:59:40 2013 -0600
+
+    jquery removed from manifest file
+
+[33mcommit d7a83effbf2c9c595c06e4ef48a243a9591bd3b7[m
+Author: Ty Kujawa <comsenzce13@gmail.com>
+Date:   Mon Jun 10 16:32:30 2013 -0600
+
+    using uglifier
+
+[33mcommit a82ac00faf39b45f81a63eaca548abf052eca860[m
+Author: Ty Kujawa <comsenzce13@gmail.com>
+Date:   Mon Jun 10 16:22:25 2013 -0600
+
+    faster pre-compile
+
+[33mcommit c30f02a1e89bd436cd1b52eb8fe6a111ff535ed0[m
+Author: Ty Kujawa <comsenzce13@gmail.com>
+Date:   Mon Jun 10 16:14:31 2013 -0600
+
+    slideshow changed
+
+[33mcommit c98b4406a02a80ebbfe9ee4f1526e11afebbbcfd[m
+Author: Ty Kujawa <comsenzce13@gmail.com>
+Date:   Mon Jun 10 16:00:23 2013 -0600
+
+    image Carousel verbose
+
+[33mcommit 7990cb3837a6efec70c41f9e44332a10cf883a34[m
+Author: Ty Kujawa <comsenzce13@gmail.com>
+Date:   Mon Jun 10 15:48:22 2013 -0600
+
+    assets precompiled
+
+[33mcommit 4648c18162255d6d2b3f802f832e007ae80c9d42[m
+Author: Ty Kujawa <comsenzce13@gmail.com>
+Date:   Mon Jun 10 15:40:47 2013 -0600
+
+    Application.js edited
+
+[33mcommit 4d48aeb42bc22ad3df0f93865b9ab8e3d803db6f[m
+Author: Ty Kujawa <comsenzce13@gmail.com>
+Date:   Thu Jun 6 15:07:55 2013 -0600
+
+    foundation added to public/assets folder
+
+[33mcommit 3f9c3c9b9f06fbf77eb1e92368701c11599e24b2[m
+Author: Ty Kujawa <comsenzce13@gmail.com>
+Date:   Thu Jun 6 15:01:51 2013 -0600
+
+    foundation script removed
+
+[33mcommit 13250a1fc721299e05123b723535c0f7275a5315[m
+Author: Ty Kujawa <comsenzce13@gmail.com>
+Date:   Thu Jun 6 14:58:28 2013 -0600
+
+    assets pre-compiled
+
+[33mcommit 202e7b18b36d80c20d51f0e48f382cfd8f595fb8[m
+Author: Ty Kujawa <comsenzce13@gmail.com>
+Date:   Thu Jun 6 14:50:08 2013 -0600
+
+    Production && Developmentgems
+
+[33mcommit a62839011e737fc414f80530f2021faef784dfd9[m
+Author: Abdul j <abdulrhmaan@gmail.com>
+Date:   Mon May 27 00:00:15 2013 -0500
+
+    added audio + video tags
+
+[33mcommit 287b411344096decc31121f7906ce9b5db269419[m
+Author: Abdul j <abdulrhmaan@gmail.com>
+Date:   Sun May 26 22:35:12 2013 -0500
+
+    Revert "Revert "Added Sass + Footer""
+    
+    This reverts commit 9ba961853b15fffafa030c030caf0475438502b0.
+
+[33mcommit b0cf780ffc2324a4edd62b079fb655f7047f6c7d[m
+Author: Abdul j <abdulrhmaan@gmail.com>
+Date:   Sun May 26 22:35:00 2013 -0500
+
+    Revert "test commit"
+    
+    This reverts commit 25e3a94be633fa1c109529e4de133bc7f212219b.
+
+[33mcommit 25e3a94be633fa1c109529e4de133bc7f212219b[m
+Author: Abdul j <abdulrhmaan@gmail.com>
+Date:   Sat May 25 18:55:41 2013 -0500
+
+    test commit
+
+[33mcommit 9ba961853b15fffafa030c030caf0475438502b0[m
+Author: Abdul j <abdulrhmaan@gmail.com>
+Date:   Sat May 25 18:15:16 2013 -0500
+
+    Revert "Added Sass + Footer"
+    
+    This reverts commit 9782554ff5d91b9ed14a81c908b4951daa421719.
+
+[33mcommit 9782554ff5d91b9ed14a81c908b4951daa421719[m
+Author: Abdul j <abdulrhmaan@gmail.com>
+Date:   Sat May 25 18:11:34 2013 -0500
+
+    Added Sass + Footer
+
+[33mcommit 58c5c376b174cb4b9f76abc0a0a5dc1a93fab1d5[m
+Author: unknown <TKUJAWA@108LAB16.cstcis.cti.depaul.edu>
+Date:   Thu May 23 19:22:46 2013 -0500
+
+    version1
